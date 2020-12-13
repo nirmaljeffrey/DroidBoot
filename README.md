@@ -8,6 +8,7 @@ DroidBoot makes it easy to create stand-alone, production grade Android Jetpack 
  DroidBoot will expose APIs at the view layer, ViewModel layer, Repository layer to prevent developers from performing mundane tasks while or developing an android feature.
 
 
+
 ## DIAGRAMS TO UNDERSTAND DROIDBOOT'S CORE COMPONENTS AND ITS THEORY
 <img src="./droidBoot assets/MVI.jpg">
 <img src="./droidBoot assets/simple-arch-diagram.jpg">
@@ -16,6 +17,9 @@ DroidBoot makes it easy to create stand-alone, production grade Android Jetpack 
 <img src="./droidBoot assets/complex-arch.jpg">
 <img src="./droidBoot assets/statefullayout.jpg">
 <img src="./droidBoot assets/events.jpg">
+
+## NOTE
+   Navigation Sample and stateFulLayout samples are included in this repo.Use this  [link](https://github.com/nirmaljeffrey/SingleLiveEvent-EventWrapper-LiveData) to understand about livedata vs livedata with event wrapper vs singleLiveEvent
 
 ## SIMILARIES LIBRARIES
 * [AIRBNB'S MVRX](https://github.com/airbnb/MvRx)
