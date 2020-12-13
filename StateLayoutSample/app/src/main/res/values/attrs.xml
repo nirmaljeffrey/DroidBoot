@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StateFulLayout">
+        <attr name="current_state" format="integer"/>
+        <attr name="content_layout_id" format="reference"/>
+        <attr name="loading_layout_id" format="reference"/>
+        <attr name="offline_layout_id" format="reference"/>
+        <attr name="empty_layout_id" format="reference"/>
+        <attr name="error_dialog_title" format="string"/>
+        <attr name="error_dialog_message" format="string"/>
+        <attr name="error_dialog_cancelable" format="boolean"/>
+        <attr name="error_dialog_positive_text" format="string"/>
+        <attr name="error_dialog_negative_text" format="string"/>
+
+    </declare-styleable>
+</resources>

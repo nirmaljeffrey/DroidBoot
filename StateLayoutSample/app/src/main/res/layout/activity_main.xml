@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewmodel"
+            type="com.nirmaljeffrey.statelayoutsample.SampleViewModel" />
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+        android:id="@+id/content_button"
+        android:layout_width="wrap_content"
+            android:onClick="@{(view) -> viewmodel.onContentClick()}"
+            android:layout_margin="10dp"
+        android:text="CONTENT"
+        android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/loading_button"
+            android:layout_width="wrap_content"
+            android:onClick="@{(view) -> viewmodel.onLoadingClick()}"
+            android:layout_margin="10dp"
+            android:text="LOADING"
+            android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/error_button"
+                android:layout_width="wrap_content"
+                android:onClick="@{(view) -> viewmodel.onErrorClick()}"
+                android:layout_margin="10dp"
+                android:text="ERROR"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/offline_button"
+                android:layout_width="wrap_content"
+                android:onClick="@{(view) -> viewmodel.onOfflineClick()}"
+                android:layout_margin="10dp"
+                android:text="OFFLINE"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/empty_button"
+                android:layout_width="wrap_content"
+                android:onClick="@{(view) -> viewmodel.onEmptyClick()}"
+                android:layout_margin="10dp"
+                android:text="EMPTY"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    <com.nirmaljeffrey.statelayoutsample.StateFulLayout
+        android:layout_width="match_parent"
+        app:content_layout_id="@id/content_layout"
+        app:loading_layout_id="@id/laoding_layout"
+        app:empty_layout_id="@id/empty_layout"
+        app:error_dialog_positive_text="OK"
+        app:error_dialog_message="Something went wrong"
+        app:current_state="@{viewmodel.stateLiveData}"
+        android:layout_height="match_parent">
+        <!-- Content -->
+        <include
+            android:id="@+id/content_layout"
+            layout="@layout/activity_main_content" />
+        <!-- Loading -->
+        <include
+            android:id="@+id/laoding_layout"
+            bind:state="@{viewmodel.stateLiveData}"
+            layout="@layout/activity_main_loading" />
+        <!-- Empty -->
+        <include
+            android:id="@+id/empty_layout"
+            layout="@layout/activity_main_empty" />
+
+
+    </com.nirmaljeffrey.statelayoutsample.StateFulLayout>
+    </LinearLayout>
+</layout>
