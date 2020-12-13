@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.nirmaljeffrey.navigationsample.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_threeFragment"
+            app:destination="@id/threeFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_twoFragment"
+            app:destination="@id/twoFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_fourFragment"
+            app:destination="@id/fourFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_oneFragment"
+            app:destination="@id/oneFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_zeroFragment"
+            app:destination="@id/zeroFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_eightFragment"
+            app:destination="@id/eightFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_sevenFragment"
+            app:destination="@id/sevenFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_sixFragment"
+            app:destination="@id/sixFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_fiveFragment"
+            app:destination="@id/fiveFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_nineFragment"
+            app:destination="@id/nineFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/eightFragment"
+        android:name="com.nirmaljeffrey.navigationsample.EightFragment"
+        android:label="EightFragment"
+        tools:layout="@layout/fragment_eight"/>
+    <fragment
+        android:id="@+id/fiveFragment"
+        android:name="com.nirmaljeffrey.navigationsample.FiveFragment"
+        android:label="FiveFragment"
+        tools:layout="@layout/fragment_five"/>
+    <fragment
+        android:id="@+id/fourFragment"
+        android:name="com.nirmaljeffrey.navigationsample.FourFragment"
+        android:label="FourFragment"
+        tools:layout="@layout/fragment_four"/>
+    <fragment
+        android:id="@+id/nineFragment"
+        android:name="com.nirmaljeffrey.navigationsample.NineFragment"
+        android:label="NineFragment"
+        tools:layout="@layout/fragment_nine"/>
+    <fragment
+        android:id="@+id/oneFragment"
+        android:name="com.nirmaljeffrey.navigationsample.OneFragment"
+        android:label="OneFragment"
+        tools:layout="@layout/fragment_one"/>
+    <fragment
+        android:id="@+id/sevenFragment"
+        android:name="com.nirmaljeffrey.navigationsample.SevenFragment"
+        android:label="SevenFragment"
+        tools:layout="@layout/fragment_seven"/>
+    <fragment
+        android:id="@+id/sixFragment"
+        android:name="com.nirmaljeffrey.navigationsample.SixFragment"
+        android:label="SixFragment"
+        tools:layout="@layout/fragment_six"/>
+    <fragment
+        android:id="@+id/threeFragment"
+        android:name="com.nirmaljeffrey.navigationsample.ThreeFragment"
+        android:label="ThreeFragment"
+        tools:layout="@layout/fragment_three"/>
+    <fragment
+        android:id="@+id/zeroFragment"
+        android:name="com.nirmaljeffrey.navigationsample.ZeroFragment"
+        android:label="ZeroFragment"
+        tools:layout="@layout/fragment_zero"/>
+    <fragment
+        android:id="@+id/twoFragment"
+        android:name="com.nirmaljeffrey.navigationsample.TwoFragment"
+        android:label="TwoFragment"
+        tools:layout="@layout/fragment_two"/>
+</navigation>
