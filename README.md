@@ -21,7 +21,7 @@ DroidBoot makes it easy to create stand-alone, production grade Android Jetpack 
 <img src="./droidBoot assets/events.jpg">
 
 ## NOTE
-   Navigation Sample and stateFulLayout samples are included in this repo.Use this  [link](https://github.com/nirmaljeffrey/SingleLiveEvent-EventWrapper-LiveData) to understand about livedata vs livedata with event wrapper vs singleLiveEvent
+   Navigation Sample and stateFulLayout sample and sample project to understand the behaviour of livedata vs livedata with event wrapper vs singleLiveEvent are included in this repo.
    
    
 
