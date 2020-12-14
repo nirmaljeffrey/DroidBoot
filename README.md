@@ -13,7 +13,6 @@ DroidBoot makes it easy to create stand-alone, production grade Android Jetpack 
 <img src="./droidBoot assets/MVI.jpg">
 <img src="./droidBoot assets/droidboot-arch.jpg">
 <img src="./droidBoot assets/simple-arch-diagram.jpg">
-<img src="./droidBoot assets/simple-arch-diagram.jpg">
 <img src="./droidBoot assets/complex-arch.jpg">
 <img src="./droidBoot assets/statefullayout.jpg">
 <img src="./droidBoot assets/events.jpg">
