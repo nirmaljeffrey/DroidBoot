@@ -7,7 +7,7 @@ DroidBoot makes it easy to production grade Android Jetpack based applications t
    *  Why there is no documentation for features developed in android and implementation for each screen varies from dev to dev?
    *  Why devs are spending more time on bug fixes?
    *  Why code is not unit testable?
-   *  Why developers not able to concentrate on user experience (eg: layout designs, animations)?
+   *  Why developers are not able to concentrate on user experience (eg: layout designs, animations)?
    *  Why dependency injection is not used?
    *  Why process death was not handled in most of the places in our existing applications?
   
