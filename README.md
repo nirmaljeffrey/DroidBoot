@@ -32,9 +32,9 @@ DroidBoot makes it easy to create stand-alone, production grade Android Jetpack 
 ## SIMILARIES LIBRARIES
 * [AIRBNB'S MVRX](https://github.com/airbnb/MvRx)
 * [SPOTIFY'S MOBIUS](https://github.com/spotify/mobius)
-* [Tinder's StateMachine](https://github.com/Tinder/StateMachine)
-* [Square's workflow](https://github.com/square/workflow)
-* [Freeletic's RxRedux](https://github.com/freeletics/RxRedux)
+* [TINDER'S STATEMACHINE](https://github.com/Tinder/StateMachine)
+* [SQUARE'S WORKFLOW](https://github.com/square/workflow)
+* [FREELETIC'S RXREDUX](https://github.com/freeletics/RxRedux)
 * [RAINBOWCAKE](https://rainbowcake.dev/)
 * [MOBSY](https://github.com/sockeqwe/mosby)
 * [UNIFLOW](https://github.com/uniflow-kt/uniflow-kt)
