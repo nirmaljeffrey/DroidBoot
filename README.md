@@ -1,5 +1,5 @@
 # DroidBoot
-DroidBoot makes it easy to create stand-alone, production grade Android Jetpack based applications that you can "just run".
+DroidBoot makes it easy to production grade Android Jetpack based applications that you can "just run".
 
  
  ## WHY DROIDBOOT?
