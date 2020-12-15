@@ -30,7 +30,7 @@ DroidBoot makes it easy to production grade Android Jetpack based applications t
    
    
 
-## SIMILARIES LIBRARIES
+## SIMILAR LIBRARIES
 * [AIRBNB'S MVRX](https://github.com/airbnb/MvRx)
 * [SPOTIFY'S MOBIUS](https://github.com/spotify/mobius)
 * [TINDER'S STATEMACHINE](https://github.com/Tinder/StateMachine)
