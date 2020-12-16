@@ -48,4 +48,4 @@ DroidBoot makes it easy to production grade Android Jetpack based applications t
 
 ## PROS:
  * Kotlin multiplatform will be based on MVI/Unidirectional Data flow/Redux and it will be the future.
- [Future of apps](https://danielebaroncelli.medium.com/the-future-of-apps-declarative-uis-with-kotlin-multiplatform-d-kmp-part-1-3-c0e1530a5343)
+ refer - [Future of apps](https://danielebaroncelli.medium.com/the-future-of-apps-declarative-uis-with-kotlin-multiplatform-d-kmp-part-1-3-c0e1530a5343)
