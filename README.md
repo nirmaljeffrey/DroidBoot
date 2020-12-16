@@ -24,6 +24,8 @@ DroidBoot makes it easy to production grade Android Jetpack based applications t
 <img src="./droidBoot assets/complex-arch.jpg">
 <img src="./droidBoot assets/statefullayout.jpg">
 <img src="./droidBoot assets/events.jpg">
+<img src="./droidBoot assets/mvvm-existing.jpg">
+<img src="./droidBoot assets/droidboot-smiley.jpg">
 
 ## NOTE
    Navigation Sample and stateFulLayout sample and sample project to understand the behaviour of livedata vs livedata with event wrapper vs singleLiveEvent are included in this repo.
