@@ -66,3 +66,4 @@ DroidBoot makes it easy to production grade Android Jetpack based applications t
 * [Do you even map though? Data model mapping in Android Apps](https://buffer.com/resources/even-map-though-data-model-mapping-android-apps/)
 * [A quick story about async callbacks, memory leaks, WeakReferences, and misconceptions](https://proandroiddev.com/a-quick-story-about-async-callbacks-memory-leaks-weakreferences-and-misconceptions-78003b3d6b26)
 * [Anemic Repositories, MVI and RxJava-induced design damage, and how AAC ViewModel is silently killing your app](https://proandroiddev.com/anemic-repositories-mvi-and-rxjava-induced-design-damage-and-how-aac-viewmodel-is-silently-1762caa70e13)
+* [All the things we’re doing wrong but take for granted: a retrospective glance at Android development](https://proandroiddev.com/all-the-things-were-doing-wrong-but-take-for-granted-a-retrospective-glance-at-android-ad7e942d09cf)
