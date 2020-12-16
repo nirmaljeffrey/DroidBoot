@@ -45,3 +45,6 @@ DroidBoot makes it easy to production grade Android Jetpack based applications t
 * [ORBIT MVI](https://github.com/babylonhealth/orbit-mvi)
 * [ROXIE](https://github.com/ww-tech/roxie)
 * [EIFFEL](https://github.com/etiennelenhart/Eiffel)
+
+## PROS:
+ * Kotlin multiplatform will be based on MVI/Unidirectional Data flow/Redux and it will be the future.
